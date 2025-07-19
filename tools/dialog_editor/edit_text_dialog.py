@@ -43,7 +43,7 @@ class EditTextDialog(tk.Toplevel):
         if not self.is_new:
             input.focus()
 
-        button = tk.Button(container, text="Valider", command=lambda: self.__validate_edition(input.get(1.0, tk.END).strip(), key_input.get().strip()))
+        button = tk.Button(container, text="Valider", command=lambda: self.__validate_edition(input.get(1.0, tk.END).strip(), key_input.get().strip() if self.is_new else None))
         button.pack(fill='x',padx=1, pady=10, expand=True)
 
     def set_on_validate_listener(self, callback):
