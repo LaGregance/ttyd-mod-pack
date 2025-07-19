@@ -3,4 +3,6 @@
 __pycache__
 .venv
 .envrc
-raw_rom
+raw_rom/files/*
+raw_rom/sys/*
+!raw_rom/files/msg

@@ -24,7 +24,6 @@ class TTYDTxtParser:
         key = None
 
         for chunk in self.__read_chunk():
-            print(chunk)
             if state == 'key':
                 key = chunk.decode('latin1')
                 state = 'value'
@@ -40,3 +39,15 @@ class TTYDTxtParser:
                 matches.append((key, value))
 
         return matches
+
+    def set(self, key, value):
+        self.content[key] = value
+
+    def save(self):
+        with open(self.__filepath, "wb") as f:
+            for key, value in self.content.items():
+                f.write(key.encode('latin1'))
+                f.write(bytes([0]))
+                f.write(value.encode('latin1'))
+                f.write(bytes([0]))
+            f.write(bytes([0]))
