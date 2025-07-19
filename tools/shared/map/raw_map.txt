@@ -1,0 +1,725 @@
+Mario’s House
+aaa_00:
+Mario’s House
+
+Rogueport
+gor_00:
+Rogueport Docks
+gor_01:
+Rogueport Plaza
+gor_02:
+East Rogueport
+gor_03:
+West Rogueport
+gor_04:
+Train and Blimp Access
+gor_10:
+On the Boat Waking Up
+gor_11:
+Rogueport at Night
+gor_12:
+Rogueport at Sunset
+
+Rogueport Sewers
+tik_00:
+Shop Area
+tik_01:
+Room with 3 Goomba Fight and Pipes to Fortune Tellers
+tik_02:
+Blooper Room
+tik_03:
+Boggly Woods Pipe Room
+tik_04:
+Room Before Thousand Year Door
+tik_05:
+Thousand Year Door Room
+tik_06:
+Pit Entrance Room
+tik_07:
+West Sewer Room With Ch4 and Ch7 Entrances
+tik_08:
+Ch4 Entrance Room
+tik_09:
+Empty Pit of 100 Trials Room (Unused)
+tik_10:
+Empty Pit Treasure Room (Unused)
+tik_11:
+Upgrade Swapper Room
+tik_12:
+Fortune Teller Room
+tik_13:
+Empty House With Star Piece
+tik_14:
+Empty Bottom Pit Reward Room (Unused)
+tik_15:
+East Staircase Room With Door to Spike Shield
+tik_16:
+Right Blue Pipes Room
+tik_17:
+Left Blue Pipes Room
+tik_18:
+West Staircase Room With Boat Panel
+tik_19:
+Plane Curse Chest Room
+tik_20:
+Spunia Room
+tik_21:
+Spike Shield Room
+
+Pit of 100 Trials
+jon_00:
+Normal Pit Room
+jon_01:
+Deep Pit Room
+jon_02:
+Deeper Pit Room
+jon_03:
+Pit Treasure Room
+jon_04:
+Deep Pit Treasure Room
+jon_05:
+Deeper Pit Treasure Room
+jon_06:
+Bonetail Room
+
+Petal Meadows
+hei_00:
+Stone Puzzle Area
+hei_01:
+Bridge Area
+hei_02:
+Area Left of First Gatehouse
+hei_03:
+First Gatehouse
+hei_04:
+Area Left of Second Gatehouse
+hei_05:
+Second Gatehouse
+hei_06:
+Area Left of Third Gatehouse
+hei_07:
+Third Gatehouse
+hei_08:
+Shwonk Fortress Left Stone Room
+hei_09:
+Shwonk Fortress Left Hallway
+hei_10:
+Shwonk Fortress Pipe
+hei_11:
+Shwonk Fortress Right Hallway
+hei_12:
+Shwonk Fortress Right Stone Room
+hei_13:
+Area Right of Stone Puzzle
+
+Petalburg
+nok_01:
+West Petalburg
+nok_02:
+East Petalburg
+
+Hooktail Castle
+gon_00:
+Entrance Room With Spring
+gon_01:
+Moat Bridge
+gon_02:
+Entrance Room With 3 Koopas
+gon_03:
+Red Bones Room
+gon_04:
+Window Jump Room
+gon_05:
+East Block Elevator Room
+gon_06:
+Dungeon Room With Attack FX
+gon_07:
+Spike Puzzle Room
+gon_08:
+West Block Elevator Room
+gon_09:
+Plane Puzzle Room
+gon_10:
+Bridge Up Top
+gon_11:
+Hooktail Room
+gon_12:
+Ms. Mowz cutscene Room
+gon_13:
+Up Arrow Room
+
+Boggly Woods
+win_00:
+Shadow Sirens room
+win_01:
+Tree View Room
+win_02:
+Plane Panel Room
+win_03:
+Flurrie's House View Room
+win_04:
+Flurrie's House Entrance
+win_05:
+Flurrie's Bedroom
+win_06:
+Entrance
+
+The Great Tree
+mri_00:
+Exterior
+mri_01:
+Entrance
+mri_02:
+10-Puni Pedestal Room
+mri_03:
+Red / Blue Cage Room
+mri_04:
+Red Key Room
+mri_05:
+Bubble Swamp Room
+mri_06:
+Zigzag Rafter Room
+mri_07:
+Pungent's Shop
+mri_08:
+Small Jabbi Hive
+mri_09:
+Blue Key Room
+mri_10:
+Super Boots Room
+mri_11:
+Large Jabbi Hive
+mri_12:
+100-Puni Pedestal 1
+mri_13:
+Elevator Pedestal
+mri_14:
+Emerald Star Pedestal Room
+mri_15:
+Escape Sequence X-Naut Ambush Room
+mri_16:
+Draining Pool Room
+mri_17:
+Fake Pedestal Room
+mri_18:
+Lowest Two-Story Enemy Room
+mri_19:
+Middle Two-Story Enemy Room (With Plane Panel)
+mri_20:
+Highest Two-Story Enemy Room
+
+Glitzville
+tou_00:
+Arrival cutscene
+tou_01:
+Main Square
+tou_02:
+Lobby
+tou_03:
+Arena
+tou_04:
+Hall
+tou_05:
+Grubba’s Office
+tou_06:
+Storage Room
+tou_07:
+Champion's Room
+tou_08:
+Major-League Room
+tou_09:
+Major-League Opposite Room
+tou_10:
+Minor-League Room
+tou_11:
+Minor-League Opposite Room
+tou_12:
+Storage Back Room
+tou_13:
+Air duct
+tou_20:
+On Blimp with Glitzville in Background
+
+Twilight Town
+usu_00:
+West Twilight Town
+usu_01:
+East Twilight Town
+Twilight Trail
+gra_00:
+Town Outskirts with Shack
+gra_01:
+Hyper Goombas Room
+gra_02:
+Fallen Tree Room
+gra_03:
+Dark Woods First Section
+gra_04:
+Dark Woods Second Section
+gra_05:
+Dark Woods Third Section
+gra_06:
+Steeple Exterior
+
+Creepy Steeple
+jin_00:
+Main Hall
+jin_01:
+North Hall
+jin_02:
+South Hall
+jin_03:
+Back Stair Room
+jin_04:
+Top Room
+jin_05:
+Cookbook Room
+jin_06:
+Below Statue Room
+jin_07:
+Boo Chest Room
+jin_08:
+Parrot Room
+jin_09:
+Well Entrance
+jin_10:
+Buzzy Beetle Room
+jin_11:
+Underground Tube Passage
+
+Keelhaul Key
+muj_00:
+Landing Site
+muj_01:
+Town
+muj_02:
+Jungle Entrance
+muj_03:
+That Annoying to Backtrack Through Room
+muj_04:
+Bridge Room
+muj_05:
+Grotto Entrance
+muj_10:
+Cortez' Dock
+muj_11:
+Cortez' Anteroom
+muj_12:
+Cortez' Hoard
+muj_20:
+Ship Sailing to Keelhaul Key
+muj_21:
+Ship Leaving Rogueport (Mario and Peach)
+
+Pirates Grotto
+dou_00:
+Entrance
+dou_01:
+Descent spring room
+dou_02:
+Spike room
+dou_03:
+Crank Gate room
+dou_04:
+Storeroom
+dou_05:
+Staircase room
+dou_06:
+Triple Parabuzzy room
+dou_07:
+Black Chest boat
+dou_08:
+Black Chest boat exterior room
+dou_09:
+Barrel Room / Crank Gate exit
+dou_10:
+Spike wall / Waves room
+dou_11:
+Stranded Boat room
+dou_12:
+Bullet Bill gauntlet room 1
+dou_13:
+Bullet Bill gauntlet room 2
+
+Excess Express
+rsh_00_a:
+Locomotive (Day)
+rsh_00_b:
+Locomotive (Dusk)
+rsh_00_c:
+Locomotive (Night)
+rsh_01_a:
+Front Passenger Car (Day)
+rsh_01_b:
+Front Passenger Car (Dusk)
+rsh_01_c:
+Front Passenger Car (Night)
+rsh_02:
+Unknown (Only has Setup Information)
+rsh_02_a:
+Middle Passenger Car (Day)
+rsh_02_b:
+Middle Passenger Car (Dusk)
+rsh_02_c:
+Middle Passenger Car (Night)
+rsh_03_a:
+Dining Car (Day)
+rsh_03_b:
+Dining Car (Dusk)
+rsh_03_c:
+Dining Car (Night)
+rsh_04_a:
+Back Passenger Car (Day)
+rsh_04_b:
+Back Passenger Car (Dusk)
+rsh_04_c:
+Back Passenger Car (Night)
+rsh_05_a:
+Storage Car
+rsh_05_b:
+Storage Car Test Map 1
+rsh_05_c:
+Storage Car Test Map 2
+rsh_06_a:
+Roof
+rsh_06_b:
+Roof Test Map 1
+rsh_06_c:
+Roof Test Map 2
+rsh_07_a:
+Locomotive Flipped (Day)
+rsh_07_b:
+Locomotive Flipped (Dusk)
+rsh_07_c:
+Locomotive Flipped (Night)
+rsh_08_a:
+Storage Car Flipped
+
+Excess Express Cutscenes
+hom_00:
+Riverside Station Drawbridge
+hom_10:
+Excess Express Exterior Shot (Day)
+hom_11:
+Excess Express Exterior Shot (Dusk)
+hom_12:
+Excess Express Exterior Shot (Day) (Again?)
+
+Riverside Station
+eki_00:
+Lobby
+eki_01:
+First staircase room
+eki_02:
+Clockwork room
+eki_03:
+Side exit exterior room
+eki_04:
+Tube Curse maze room
+eki_05:
+Ultra boots room
+eki_06:
+Goomba room
+
+Poshley Heights
+pik_00:
+Station Exterior
+pik_01:
+Sanctum Exterior
+pik_02:
+Sanctum Foyer
+pik_03:
+Sanctum Altar
+pik_04:
+Hotel Exterior
+
+Fahr Outpost
+bom_00:
+Entrance Area
+bom_01:
+Village Cannon Area
+bom_02:
+Village Shops
+bom_03:
+Left Snowy Area
+bom_04:
+Right Snowy Area
+
+The Moon
+moo_00:
+Area With Save Block
+moo_01:
+Area Right of Save Block Room
+moo_02:
+Area In Front of X-Naut Base
+moo_03:
+Flying Through Space
+moo_04:
+Shot of the Moon
+moo_05:
+Area Left of X-Naut Base Room
+moo_06:
+Area Right of X-Naut Base Room
+moo_07:
+Area Left of Save Block Room
+
+X-Naut Fortress
+aji_00:
+Save and Heal Block Room
+aji_01:
+Main Floors
+aji_02:
+Level 1 East (Electric Puzzle)
+aji_03:
+Sublevel 1 West (Claw Machine Room)
+aji_04:
+Sublevel 1 East (Thwomp Test Room)
+aji_05:
+Sublevel 2 West (Electric Puzzle)
+aji_06:
+Potion Room
+aji_07:
+Teleporter Room
+aji_08:
+Yux Experiment Room
+aji_09:
+Changing Room
+aji_10:
+Sublevel 2 East (Grodus Room)
+aji_11:
+Grodus Office
+aji_12:
+Sublevel 3 West (Electric Puzzle)
+aji_13:
+Gear Platforming Room
+aji_14:
+Magnus 2.0 Room
+aji_15:
+Peach Shower Room
+aji_16:
+Peach Bedroom
+aji_17:
+TEC Room
+aji_18:
+3 Keycards Room
+aji_19:
+Entrance Escalators
+
+Palace of Shadow
+las_00:
+Entrance
+las_01:
+Swoopula Staircase
+las_02:
+Bullet Bill Gauntlet 1
+las_03:
+Spike Trap Room
+las_04:
+Fire Trap Room
+las_05:
+Dark Bones Room
+las_06:
+Bullet Bill Gauntlet 2
+las_07:
+P-Up D-Down P Hall
+las_08:
+Repeating Maze Room
+las_09:
+Riddle Tower Exterior
+las_10:
+Riddle Tower Interior Atrium
+las_11:
+Tower 1-NW (Lower Stone Block Puzzle)
+las_12:
+Tower 1-NE (Fake Wall Puzzle)
+las_13:
+Tower 1-SW (Two Switch Puzzle)
+las_14:
+Tower 1-SE (Flurrie Puzzle)
+las_15:
+Tower 2-NW (Upper Stone Block Puzzle)
+las_16:
+Tower 2-NE (Bobbery Puzzle)
+las_17:
+Tower 2-SW (Bones Puzzle)
+las_18:
+Tower 2-SE (Vivian Puzzle)
+las_19:
+Staircase / Hallway 1 (Hidden Stair Entrance)
+las_20:
+Backroom 1 (Koops Switch, Star puzzle)
+las_21:
+Staircase / Hallway 2 (Elevator Blocks)
+las_22:
+Backroom 2 (Bobbery Switch, wheel)
+las_23:
+Staircase / Hallway 3 (Spring Jump Bars, Narrow Passages) 
+las_24:
+Backroom 3 (Flurrie Block, Yoshi Switch)
+las_25:
+Staircase / Hallway 4 (Plane Panels)
+las_26:
+Gloomtail Room
+las_27:
+Throne Room Antechamber
+las_28:
+Throne Room
+las_29:
+Coffin Room
+las_30:
+Final Staircase
+
+Battle Stages
+bti_01:
+Rising Star Battle Stage
+bti_02:
+B-List Star Battle Stage
+bti_03:
+A-List Star Battle Stage
+bti_04:
+Superstar Battle Stage
+
+Battle Stage Backgrounds
+stg_00_0:
+Rogueport Docks
+stg_00_1:
+Rogueport Sewers
+stg_00_2:
+Rogueport Sewers (Blooper Room)
+stg_00_3:
+Pit of 100 Trials
+stg_00_4:
+Rogueport (Gus Room)
+stg_01:
+Unused Battle Stage 1
+stg_01_0:
+Petal Meadows
+stg_01_1:
+Shwonk Fortress Gatehouse
+stg_01_2:
+Shwonk Fortress
+stg_01_3:
+Hooktail Castle
+stg_01_4:
+Petal Meadows (Outside Shwonk Fortress)
+stg_01_5:
+Hooktail Castle Sky Bridge
+stg_01_6:
+Hooktail’s Chamber
+stg_02:
+Unused Battle Stage 2
+stg_02_0:
+Boggly Woods
+stg_02_1:
+Boggly Tree
+stg_03:
+Unused Battle Stage 3
+stg_03_0:
+Glitz Pit
+stg_04:
+Unused Battle Stage 4
+stg_04_0:
+Twilight Trail
+stg_04_1:
+Twilight Forest
+stg_04_2:
+Creepy Steeple Sanctum
+stg_04_3:
+Creepy Steeple Exterior
+stg_04_4:
+Creepy Steeple Top
+stg_04_5:
+Creepy Steeple Lower Floors
+stg_04_6:
+Creepy Steeple Caves
+stg_05_0:
+X-Naut Ship
+stg_05_1:
+Keelhaul Key Town
+stg_05_2:
+Keelhaul Key
+stg_05_3:
+Pirates Grotto
+stg_05_4:
+Pirates Grotto Waterfall
+stg_05_5:
+Cortez Treasure Room
+stg_06_0:
+Train Roof
+stg_06_1:
+Riverside Station Interior
+stg_06_2:
+Riverside Station Exterior
+stg_06_3:
+Riverside Station Clock Room
+stg_06_4:
+Poshley Sanctum
+stg_07_0:
+Fahr Outpost
+stg_07_1:
+X-Naut Fortress Hallway
+stg_07_2:
+X-Naut Fortress Gear Platforming Room
+stg_07_3:
+Magnus 2.0 Room
+stg_07_4:
+Moon
+stg_07_5:
+X-Naut Fortress Grodus Room
+stg_07_6:
+X-Naut Fortress Save and Heal Block Room
+stg_08_0:
+Palace of Shadow
+stg_08_1:
+Palace of Shadow Stone Hallway
+stg_08_2:
+Palace of Shadow Hallway
+stg_08_3:
+Riddle Tower Exterior
+stg_08_4:
+Riddle Tower Interior
+stg_08_5:
+Palace of Shadow Depths
+stg_08_6:
+Shadow Queen Room
+stg01_1:
+Shwonk Fortress Gatehouse (Again?)
+
+Pianta Parlor Minigames
+yuu_00:
+Plane Mode Minigame
+yuu_01:
+Boat Mode Minigame
+yuu_02:
+Tube Mode Minigame
+yuu_03:
+Paper Mode Minigame
+
+Bowser Missions
+kpa_00:
+Bowser’s Castle Exterior
+kpa_01:
+Bowser’s Castle Interior
+kpa_02:
+Super Koopa Bros. World 1
+kpa_03:
+Super Koopa Bros. World 2 (Underwater Section)
+kpa_04:
+Super Koopa Bros. World 2 (Flag Section)
+kpa_05:
+Super Koopa Bros. World 3 (Castle Section)
+kpa_06:
+Super Koopa Bros. World 3 (Flag Section)
+kpa_07:
+Rawk Hawk’s Room
+
+Chapter Intro Screens
+sys_00:
+Game Over Screen?
+sys_01:
+Chapter Intro Screen
+
+End Credits
+end_00:
+Credit Screen
+
