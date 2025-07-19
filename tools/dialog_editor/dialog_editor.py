@@ -80,8 +80,10 @@ def validate_edition(dialog, file, text_id, text):
     parser = TTYDTxtParser(msg_dir + '/' + file)
     parser.load()
 
-    parser.set(text_id, text)
+    parser.set(text_id, text.strip())
     parser.save()
+
+    update_results()
 
 
 # Create main window
