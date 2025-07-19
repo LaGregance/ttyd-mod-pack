@@ -43,19 +43,22 @@ class EditTextDialog(tk.Toplevel):
         if not self.is_new:
             input.focus()
 
-        button = tk.Button(container, text="Valider", command=lambda: self.__validate_edition(input.get(1.0, tk.END).strip()))
+        button = tk.Button(container, text="Valider", command=lambda: self.__validate_edition(input.get(1.0, tk.END).strip(), key_input.get().strip()))
         button.pack(fill='x',padx=1, pady=10, expand=True)
 
     def set_on_validate_listener(self, callback):
         self.on_validate = callback
 
-    def __validate_edition(self, text):
+    def __validate_edition(self, text, new_key):
+        if self.is_new and not new_key:
+            return
+
         self.destroy()
 
         parser = TTYDTxtParser(RAW_ROM_MESSAGE_FOLDER + '/' + self.file)
         parser.load()
 
-        parser.set(self.text_id, text)
+        parser.set(new_key if self.is_new else self.text_id, text)
         parser.save()
 
         if self.on_validate:

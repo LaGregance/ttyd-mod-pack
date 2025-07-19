@@ -65,7 +65,7 @@ def on_double_click(event):
 
 def on_click_add():
     selected_area_id = current_area_name.get().split(" ")[0]
-    dialog = EditTextDialog(root, "xxxx", None, selected_area_id + '.txt')
+    dialog = EditTextDialog(root, selected_area_id + '.txt', None, "")
     dialog.set_on_validate_listener(lambda: update_results())
 
 # Create main window
