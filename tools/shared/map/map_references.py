@@ -17,19 +17,19 @@ MAP_REFERENCES = {
             },
             'aji_02': {
                 'name': 'Level 1 East (Electric '
-                'Puzzle)'
+                        'Puzzle)'
             },
             'aji_03': {
                 'name': 'Sublevel 1 West (Claw '
-                'Machine Room)'
+                        'Machine Room)'
             },
             'aji_04': {
                 'name': 'Sublevel 1 East (Thwomp '
-                'Test Room)'
+                        'Test Room)'
             },
             'aji_05': {
                 'name': 'Sublevel 2 West (Electric '
-                'Puzzle)'
+                        'Puzzle)'
             },
             'aji_06': {
                 'name': 'Potion Room'
@@ -51,7 +51,7 @@ MAP_REFERENCES = {
             },
             'aji_12': {
                 'name': 'Sublevel 3 West (Electric '
-                'Puzzle)'
+                        'Puzzle)'
             },
             'aji_13': {
                 'name': 'Gear Platforming Room'
@@ -142,7 +142,7 @@ MAP_REFERENCES = {
             },
             'dou_08': {
                 'name': 'Black Chest boat exterior '
-                'room'
+                        'room'
             },
             'dou_09': {
                 'name': 'Barrel Room / Crank Gate exit'
@@ -272,6 +272,32 @@ MAP_REFERENCES = {
         },
         'name': 'Rogueport'
     },
+    'gra': {
+        'areas': {
+            'gra_00': {
+                'name': 'Town Outskirts with Shack'
+            },
+            'gra_01': {
+                'name': 'Hyper Goombas Room'
+            },
+            'gra_02': {
+                'name': 'Fallen Tree Room'
+            },
+            'gra_03': {
+                'name': 'Dark Woods First Section'
+            },
+            'gra_04': {
+                'name': 'Dark Woods Second Section'
+            },
+            'gra_05': {
+                'name': 'Dark Woods Third Section'
+            },
+            'gra_06': {
+                'name': 'Steeple Exterior'
+            }
+        },
+        'name': 'Twilight Trail'
+    },
     'hei': {
         'areas': {
             'hei_00': {
@@ -300,7 +326,7 @@ MAP_REFERENCES = {
             },
             'hei_08': {
                 'name': 'Shwonk Fortress Left Stone '
-                'Room'
+                        'Room'
             },
             'hei_09': {
                 'name': 'Shwonk Fortress Left Hallway'
@@ -313,7 +339,7 @@ MAP_REFERENCES = {
             },
             'hei_12': {
                 'name': 'Shwonk Fortress Right Stone '
-                'Room'
+                        'Room'
             },
             'hei_13': {
                 'name': 'Area Right of Stone Puzzle'
@@ -328,15 +354,15 @@ MAP_REFERENCES = {
             },
             'hom_10': {
                 'name': 'Excess Express Exterior '
-                'Shot (Day)'
+                        'Shot (Day)'
             },
             'hom_11': {
                 'name': 'Excess Express Exterior '
-                'Shot (Dusk)'
+                        'Shot (Dusk)'
             },
             'hom_12': {
                 'name': 'Excess Express Exterior '
-                'Shot (Day) (Again?)'
+                        'Shot (Day) (Again?)'
             }
         },
         'name': 'Excess Express Cutscenes'
@@ -421,19 +447,19 @@ MAP_REFERENCES = {
             },
             'kpa_03': {
                 'name': 'Super Koopa Bros. World 2 '
-                '(Underwater Section)'
+                        '(Underwater Section)'
             },
             'kpa_04': {
                 'name': 'Super Koopa Bros. World 2 '
-                '(Flag Section)'
+                        '(Flag Section)'
             },
             'kpa_05': {
                 'name': 'Super Koopa Bros. World 3 '
-                '(Castle Section)'
+                        '(Castle Section)'
             },
             'kpa_06': {
                 'name': 'Super Koopa Bros. World 3 '
-                '(Flag Section)'
+                        '(Flag Section)'
             },
             'kpa_07': {
                 'name': 'Rawk Hawk’s Room'
@@ -478,21 +504,21 @@ MAP_REFERENCES = {
             },
             'las_11': {
                 'name': 'Tower 1-NW (Lower Stone '
-                'Block Puzzle)'
+                        'Block Puzzle)'
             },
             'las_12': {
                 'name': 'Tower 1-NE (Fake Wall Puzzle)'
             },
             'las_13': {
                 'name': 'Tower 1-SW (Two Switch '
-                'Puzzle)'
+                        'Puzzle)'
             },
             'las_14': {
                 'name': 'Tower 1-SE (Flurrie Puzzle)'
             },
             'las_15': {
                 'name': 'Tower 2-NW (Upper Stone '
-                'Block Puzzle)'
+                        'Block Puzzle)'
             },
             'las_16': {
                 'name': 'Tower 2-NE (Bobbery Puzzle)'
@@ -505,33 +531,33 @@ MAP_REFERENCES = {
             },
             'las_19': {
                 'name': 'Staircase / Hallway 1 '
-                '(Hidden Stair Entrance)'
+                        '(Hidden Stair Entrance)'
             },
             'las_20': {
                 'name': 'Backroom 1 (Koops Switch, '
-                'Star puzzle)'
+                        'Star puzzle)'
             },
             'las_21': {
                 'name': 'Staircase / Hallway 2 '
-                '(Elevator Blocks)'
+                        '(Elevator Blocks)'
             },
             'las_22': {
                 'name': 'Backroom 2 (Bobbery Switch, '
-                'wheel)'
+                        'wheel)'
             },
             'las_23': {
                 'name':
-                'Staircase / Hallway 3 '
-                '(Spring Jump Bars, Narrow '
-                'Passages)'
+                    'Staircase / Hallway 3 '
+                    '(Spring Jump Bars, Narrow '
+                    'Passages)'
             },
             'las_24': {
                 'name': 'Backroom 3 (Flurrie Block, '
-                'Yoshi Switch)'
+                        'Yoshi Switch)'
             },
             'las_25': {
                 'name': 'Staircase / Hallway 4 '
-                '(Plane Panels)'
+                        '(Plane Panels)'
             },
             'las_26': {
                 'name': 'Gloomtail Room'
@@ -573,7 +599,7 @@ MAP_REFERENCES = {
             },
             'moo_06': {
                 'name': 'Area Right of X-Naut Base '
-                'Room'
+                        'Room'
             },
             'moo_07': {
                 'name': 'Area Left of Save Block Room'
@@ -630,7 +656,7 @@ MAP_REFERENCES = {
             },
             'mri_15': {
                 'name': 'Escape Sequence X-Naut '
-                'Ambush Room'
+                        'Ambush Room'
             },
             'mri_16': {
                 'name': 'Draining Pool Room'
@@ -643,7 +669,7 @@ MAP_REFERENCES = {
             },
             'mri_19': {
                 'name': 'Middle Two-Story Enemy Room '
-                '(With Plane Panel)'
+                        '(With Plane Panel)'
             },
             'mri_20': {
                 'name': 'Highest Two-Story Enemy Room'
@@ -664,7 +690,7 @@ MAP_REFERENCES = {
             },
             'muj_03': {
                 'name': 'That Annoying to Backtrack '
-                'Through Room'
+                        'Through Room'
             },
             'muj_04': {
                 'name': 'Bridge Room'
@@ -686,7 +712,7 @@ MAP_REFERENCES = {
             },
             'muj_21': {
                 'name': 'Ship Leaving Rogueport '
-                '(Mario and Peach)'
+                        '(Mario and Peach)'
             }
         },
         'name': 'Keelhaul Key'
@@ -744,7 +770,7 @@ MAP_REFERENCES = {
             },
             'rsh_02': {
                 'name': 'Unknown (Only has Setup '
-                'Information)'
+                        'Information)'
             },
             'rsh_02_a': {
                 'name': 'Middle Passenger Car (Day)'
@@ -754,7 +780,7 @@ MAP_REFERENCES = {
             },
             'rsh_02_c': {
                 'name': 'Middle Passenger Car '
-                '(Night)'
+                        '(Night)'
             },
             'rsh_03_a': {
                 'name': 'Dining Car (Day)'
@@ -811,7 +837,7 @@ MAP_REFERENCES = {
         'areas': {
             'stg01_1': {
                 'name': 'Shwonk Fortress Gatehouse '
-                '(Again?)'
+                        '(Again?)'
             },
             'stg_00_0': {
                 'name': 'Rogueport Docks'
@@ -821,7 +847,7 @@ MAP_REFERENCES = {
             },
             'stg_00_2': {
                 'name': 'Rogueport Sewers (Blooper '
-                'Room)'
+                        'Room)'
             },
             'stg_00_3': {
                 'name': 'Pit of 100 Trials'
@@ -846,7 +872,7 @@ MAP_REFERENCES = {
             },
             'stg_01_4': {
                 'name': 'Petal Meadows (Outside '
-                'Shwonk Fortress)'
+                        'Shwonk Fortress)'
             },
             'stg_01_5': {
                 'name': 'Hooktail Castle Sky Bridge'
@@ -922,7 +948,7 @@ MAP_REFERENCES = {
             },
             'stg_06_3': {
                 'name': 'Riverside Station Clock '
-                'Room'
+                        'Room'
             },
             'stg_06_4': {
                 'name': 'Poshley Sanctum'
@@ -935,7 +961,7 @@ MAP_REFERENCES = {
             },
             'stg_07_2': {
                 'name': 'X-Naut Fortress Gear '
-                'Platforming Room'
+                        'Platforming Room'
             },
             'stg_07_3': {
                 'name': 'Magnus 2.0 Room'
@@ -948,14 +974,14 @@ MAP_REFERENCES = {
             },
             'stg_07_6': {
                 'name': 'X-Naut Fortress Save and '
-                'Heal Block Room'
+                        'Heal Block Room'
             },
             'stg_08_0': {
                 'name': 'Palace of Shadow'
             },
             'stg_08_1': {
                 'name': 'Palace of Shadow Stone '
-                'Hallway'
+                        'Hallway'
             },
             'stg_08_2': {
                 'name': 'Palace of Shadow Hallway'
@@ -993,9 +1019,9 @@ MAP_REFERENCES = {
             },
             'tik_01': {
                 'name':
-                'Room with 3 Goomba Fight '
-                'and Pipes to Fortune '
-                'Tellers'
+                    'Room with 3 Goomba Fight '
+                    'and Pipes to Fortune '
+                    'Tellers'
             },
             'tik_02': {
                 'name': 'Blooper Room'
@@ -1005,7 +1031,7 @@ MAP_REFERENCES = {
             },
             'tik_04': {
                 'name': 'Room Before Thousand Year '
-                'Door'
+                        'Door'
             },
             'tik_05': {
                 'name': 'Thousand Year Door Room'
@@ -1015,18 +1041,18 @@ MAP_REFERENCES = {
             },
             'tik_07': {
                 'name': 'West Sewer Room With Ch4 '
-                'and Ch7 Entrances'
+                        'and Ch7 Entrances'
             },
             'tik_08': {
                 'name': 'Ch4 Entrance Room'
             },
             'tik_09': {
                 'name': 'Empty Pit of 100 Trials '
-                'Room (Unused)'
+                        'Room (Unused)'
             },
             'tik_10': {
                 'name': 'Empty Pit Treasure Room '
-                '(Unused)'
+                        '(Unused)'
             },
             'tik_11': {
                 'name': 'Upgrade Swapper Room'
@@ -1039,11 +1065,11 @@ MAP_REFERENCES = {
             },
             'tik_14': {
                 'name': 'Empty Bottom Pit Reward '
-                'Room (Unused)'
+                        'Room (Unused)'
             },
             'tik_15': {
                 'name': 'East Staircase Room With '
-                'Door to Spike Shield'
+                        'Door to Spike Shield'
             },
             'tik_16': {
                 'name': 'Right Blue Pipes Room'
@@ -1053,7 +1079,7 @@ MAP_REFERENCES = {
             },
             'tik_18': {
                 'name': 'West Staircase Room With '
-                'Boat Panel'
+                        'Boat Panel'
             },
             'tik_19': {
                 'name': 'Plane Curse Chest Room'
@@ -1113,34 +1139,13 @@ MAP_REFERENCES = {
             },
             'tou_20': {
                 'name': 'On Blimp with Glitzville in '
-                'Background'
+                        'Background'
             }
         },
         'name': 'Glitzville'
     },
     'usu': {
         'areas': {
-            'Dark Woods First Section': {
-                'name': 'gra_04:'
-            },
-            'Dark Woods Second Section': {
-                'name': 'gra_05:'
-            },
-            'Dark Woods Third Section': {
-                'name': 'gra_06:'
-            },
-            'Fallen Tree Room': {
-                'name': 'gra_03:'
-            },
-            'Hyper Goombas Room': {
-                'name': 'gra_02:'
-            },
-            'Town Outskirts with Shack': {
-                'name': 'gra_01:'
-            },
-            'Twilight Trail': {
-                'name': 'gra_00:'
-            },
             'usu_00': {
                 'name': 'West Twilight Town'
             },
