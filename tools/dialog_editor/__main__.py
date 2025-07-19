@@ -9,7 +9,6 @@ from tools.shared.ux.autocomplete_combobox import AutocompleteCombobox
 msg_dir = 'raw_rom/files/msg/US'
 
 def get_results(selected_area_id, search_query):
-
     result = []
     all_files = []
     with os.scandir(msg_dir) as entries:
@@ -61,6 +60,8 @@ def on_double_click(event):
 
     dialog = tk.Toplevel(root)
     dialog.transient(root)
+    dialog.grab_set()
+
     dialog.title(f"{file} {text_id}")
 
     # Frame to contain text and button vertically
