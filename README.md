@@ -1,4 +1,6 @@
-# Let's go for TTYD Hello World Mod
+# TTDY Mod Pack
+
+This is a suite of tools and documentation that help to bootstrap a TTYD mod project.
 
 ## 1. Requirements
 

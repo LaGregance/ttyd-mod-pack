@@ -1,0 +1,2 @@
+RAW_ROM_FOLDER = 'raw_rom'
+RAW_ROM_MESSAGE_FOLDER = f'{RAW_ROM_FOLDER}/files/msg/US'

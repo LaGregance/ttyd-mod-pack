@@ -2,16 +2,16 @@ import os
 import tkinter as tk
 from tkinter import ttk
 
+from tools.dialog_editor.edit_text_dialog import EditTextDialog
 from tools.dialog_editor.ttyd_txt_parser import TTYDTxtParser
+from tools.shared.constants import RAW_ROM_MESSAGE_FOLDER
 from tools.shared.map.map_helpers import get_all_area_names
 from tools.shared.ux.autocomplete_combobox import AutocompleteCombobox
-
-msg_dir = 'raw_rom/files/msg/US'
 
 def get_results(selected_area_id, search_query):
     result = []
     all_files = []
-    with os.scandir(msg_dir) as entries:
+    with os.scandir(RAW_ROM_MESSAGE_FOLDER) as entries:
         for entry in entries:
             if entry.is_file() and entry.name.endswith('.txt'):
                 # Check area filter
@@ -19,7 +19,7 @@ def get_results(selected_area_id, search_query):
                     all_files.append(entry.name)
 
     for file in all_files:
-        parser = TTYDTxtParser(msg_dir + '/' + file)
+        parser = TTYDTxtParser(RAW_ROM_MESSAGE_FOLDER + '/' + file)
         parser.load()
 
         if not search_query:
@@ -40,6 +40,8 @@ def update_results(*args):
     search_query = current_search.get()
     results = get_results(selected_area_id, search_query)
 
+    add_button["state"] = "normal" if len(selected_area_id) > 3 else "disabled"
+
     # Clear current list
     result_list.delete(0, tk.END)
 
@@ -58,34 +60,13 @@ def on_double_click(event):
     file = splitted_1[0]
     text_id = splitted_1[1]
 
-    dialog = tk.Toplevel(root)
-    dialog.transient(root)
-    dialog.grab_set()
+    dialog = EditTextDialog(root, file, text_id, text)
+    dialog.set_on_validate_listener(lambda: update_results())
 
-    dialog.title(f"{file} {text_id}")
-
-    # Frame to contain text and button vertically
-    container = tk.Frame(dialog)
-    container.pack(fill='both', expand=True)
-
-    input = tk.Text(container, font=("TkFixedFont", 12))
-    input.insert(tk.END, text)
-    input.pack(fill='both',padx=1, pady=1, expand=True)
-
-    button = tk.Button(container, text="Valider", command=lambda: validate_edition(dialog, file, text_id, input.get(1.0, tk.END)))
-    button.pack(fill='x',padx=1, pady=10, expand=True)
-
-def validate_edition(dialog, file, text_id, text):
-    dialog.destroy()
-
-    parser = TTYDTxtParser(msg_dir + '/' + file)
-    parser.load()
-
-    parser.set(text_id, text.strip())
-    parser.save()
-
-    update_results()
-
+def on_click_add():
+    selected_area_id = current_area_name.get().split(" ")[0]
+    dialog = EditTextDialog(root, "xxxx", None, selected_area_id + '.txt')
+    dialog.set_on_validate_listener(lambda: update_results())
 
 # Create main window
 root = tk.Tk()
@@ -96,10 +77,17 @@ root.geometry("1000x800")
 area_label = tk.Label(root, text="Map/Area:", justify="left")
 area_label.pack(anchor="w", padx=10, pady=(10, 0))
 
+area_frame = tk.Frame(root)
+area_frame.pack(padx=10, expand=True, fill=tk.X, pady=(0, 5))
+
 current_area_name = tk.StringVar()
-area_menu = AutocompleteCombobox(root, textvariable=current_area_name, completevalues=["", *get_all_area_names()])
-area_menu.pack(fill=tk.X, padx=10, pady=(0, 5))
+area_menu = AutocompleteCombobox(area_frame, textvariable=current_area_name, completevalues=["", *get_all_area_names()])
+area_menu.pack(fill=tk.X, side="left", expand=True)
 area_menu.bind("<<ComboboxSelected>>", update_results)
+
+add_button = ttk.Button(area_frame, text="Add", command=on_click_add)
+add_button["state"] = "disabled"
+add_button.pack(side="left")
 
 # Search bar
 search_label = tk.Label(root, text="Search:", justify="left")
